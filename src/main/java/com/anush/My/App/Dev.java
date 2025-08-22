@@ -10,7 +10,6 @@ public class Dev {
     // public Dev(Laptop laptop){
     // this.laptop=laotop;
     //}
-
     @Autowired //Field Injection
     private  Computer comp;
     public void build(){
@@ -18,3 +17,5 @@ public class Dev {
         System.out.println(" I am working on a Awesome project");
     }
 }
+
+
